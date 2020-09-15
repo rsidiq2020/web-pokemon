@@ -16,3 +16,9 @@ Requirements:
 4.	Pokemon Detail page; should show a picture of the Pokemon with its moves and types (this information is from the API, feel free to add more information of the Pokemon if you want to). The mandatory thing is that there should be a button to catch the Pokemon, (success probability is 50%), if success then user can give the Pokemon a nickname and add that Pokemon to `My Pokemon List’
 5.	My Pokemon List page; should show a list (like Pokemon List page, but with each of their nicknames as well) of all Pokemons you have caught. It should also be possible to remove/release a Pokemon from the list on this page.
 
+
+Notes:
+1.	Your web app UI/UX should be mobile-first
+2.	Don’t worry too much about getting the perfect design (UI/UX wise), as long as its usable and not too bad, it’s okay
+3.	Consider using a global state management library
+4.	Send us URL to your project repository
