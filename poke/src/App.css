@@ -1,11 +1,24 @@
 .App {
-  text-align: center;
+  text-align: right;
+}
+
+.App-header {
+  background-color: #222;
+  height: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.nav-link {
+  padding: 0 10px;
+  color: white;
 }
 
 .Isi {
-  font-size: 500rem;
+  font-size: 15px;
   font-weight: 700;
-  text-align: center;
+  text-align: justify;
+  padding: 20px
 }
 
 .App-logo {
@@ -13,18 +26,12 @@
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
 .App-footer {
   background-color: #222;
-  height: 150px;
   padding: 20px;
   color: white;
+  text-align: center;
+  font-size: 15px;
 }
 
 .App-intro {

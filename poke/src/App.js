@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <HeadApp/>
-        <h2>Ini Isi Halaman Utama</h2>
+        <h2 className="Isi">Ini Isi Halaman Utama</h2>
         <FootApp/>
       </div>
     );
