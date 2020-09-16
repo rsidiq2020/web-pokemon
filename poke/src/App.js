@@ -14,14 +14,21 @@ class App extends Component {
     .then(response => this.setState ({
       produk: response.data
     }))
+  }
 
-    console.log(this.state.produk);
+  handleSelectUser (email, id, name, company) {
+    alert(id +' '+ name +' '+ email);
+    console.log(company);
   }
 
   render() {
     const renderData=this.state.produk.map((isi)=>{
       return (
-          <div className="Isi" key={isi.id}>{isi.name}</div>
+          <div className="Isi"
+            onClick={() => this.handleSelectUser(isi.email, isi.id, isi.name, isi.company)}
+            key={isi.id} >
+            {isi.name}
+          </div>
         )
     })
     return (
