@@ -10,6 +10,6 @@ class FootApp extends Component {
         </div>
       );
     }
-  }
+}
   
-  export default FootApp;
+export default FootApp;
