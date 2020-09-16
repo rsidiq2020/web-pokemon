@@ -10,18 +10,18 @@ class App extends Component {
   }
 
   async componentDidMount () {
-    await axios.get('https://pokeapi.co/api/v2/pokemon/ditto')
+    await axios.get('https://jsonplaceholder.typicode.com/users')
     .then(response => this.setState ({
-      produk: response.data.abilities
+      produk: response.data
     }))
 
-    // console.log(this.state.produk);
+    console.log(this.state.produk);
   }
 
   render() {
     const renderData=this.state.produk.map((isi)=>{
       return (
-          <div className="Isi" key={isi.slot}>{isi.ability.name}</div>
+          <div className="Isi" key={isi.id}>{isi.name}</div>
         )
     })
     return (
