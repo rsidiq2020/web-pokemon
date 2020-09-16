@@ -23,7 +23,8 @@ Notes:
 3.	Consider using a global state management library
 4.	Send us URL to your project repository
 
-Module:
+<p>
+Module:<br>
 install router: Link<br>
 	npm i react-router-dom<br>
 	npm i react-router<br>
