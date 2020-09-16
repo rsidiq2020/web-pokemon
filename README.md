@@ -24,8 +24,8 @@ Notes:
 4.	Send us URL to your project repository
 
 Module:
-install router: 	Link
-	npm i react-router-dom
-	npm i react-router
-install axios:	get API
-	npm install axios --save
+install router: Link<br>
+	npm i react-router-dom<br>
+	npm i react-router<br>
+install axios:	get API<br>
+	npm install axios --save<br>
