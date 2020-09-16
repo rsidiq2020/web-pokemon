@@ -22,3 +22,10 @@ Notes:
 2.	Don’t worry too much about getting the perfect design (UI/UX wise), as long as its usable and not too bad, it’s okay
 3.	Consider using a global state management library
 4.	Send us URL to your project repository
+
+Module:
+install router: 	Link
+	npm i react-router-dom
+	npm i react-router
+install axios:	get API
+	npm install axios --save
