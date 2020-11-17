@@ -2,32 +2,24 @@
   font-size: 15px;
 }
 
+.navbar-nav {
+  display: -webkit-inline-box;
+  list-style: inside;
+}
+
 .App-header {
-  text-align: right;
   background-color: rgb(0, 38, 255);
   height: 20px;
   padding: 20px;
   color: rgb(238, 255, 0);
-}
-
-.nav-link {
-  padding: 0 10px;
-  color: white;
+  display: contents;
+  font-size: large;
 }
 
 .Isi {
   font-weight: 700;
   text-align: left;
   padding: 20px;
-}
-
-.Isi:link {
-  background-color: red;
-  border: 1px solid yellow;
-}
-
-.Isi:hover {
-  border: 1px solid blue;
 }
 
 .App-logo {
@@ -41,10 +33,6 @@
   color: rgb(238, 255, 0);
   text-align: center;
   font-size: 15px;
-}
-
-.App-intro {
-  font-size: large;
 }
 
 @keyframes App-logo-spin {
